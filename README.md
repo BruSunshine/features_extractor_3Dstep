@@ -3,7 +3,7 @@ Extract features from a technical definition as *.step 3D model
 
 One [3d_model.step](./samples/sample1.step) document is used to generate a vector of N features.  
 
-This features extractor is used a preliminary step to feed a machine learning model described [here](../predict_manufacturing_costs/README.md)  
+This features extractor is used a preliminary step to feed a machine learning model described [here](https://github.com/BruSunshine/predict_manufacturing_costs/README.md)  
 
 **Format**  
 
@@ -11,16 +11,16 @@ This files is a step \*.stp or \*.step format described in https://en.wikipedia.
 
 **Comment**  
 
-As we saw above each part is linked to its 3D model, stored as a step file, and named in a way similar to the pdf 2D drawing.  
+Each part is linked to its 3D model, stored as a step file, and named in a way similar to the pdf 2D drawing.   
 The step files can be opened with a text editor or with CAD software.  
 
-Preprocessing of step files aims at generating a dataframe of features for each step file.
-We made the choice to use an open source CAD software called FreeCAD with a good integration of pythons macros and a good community of users.
-This software can be operated with or without GUI from a jupyter notebook and we found it usefull for extracting the topological features from the step file.
+Preprocessing of step files aims at generating a dataframe of features for each step file.  
+We made the choice to use an open source CAD software called FreeCAD with a good integration of pythons macros and a good community of users.  
+This software can be operated with or without GUI from a jupyter notebook and we found it usefull for extracting the topological features from the step file.  
 
-FreeCAD library is used to extract the features. FreeCAD GUI is used in combination to the FreeCAD App to help visual cross-checking when needed.
+FreeCAD library is used to extract the features. FreeCAD GUI is used in combination to the FreeCAD App to help visual cross-checking when needed.  
 
-List of features extracted which we expect having impact on the part complexity and finally on the part costs:
+List of features extracted which we expect having impact on the part complexity and finally on the part costs:  
 
 Solids
  - Number of solids
