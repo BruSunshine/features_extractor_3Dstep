@@ -3,7 +3,7 @@ Extract features from a technical definition as *.step 3D model
 
 One [3d_model.step](./samples/sample1.step) document is used to generate a vector of N features.  
 
-This features extractor is used a preliminary step to feed a machine learning model described [here](https://github.com/BruSunshine/predict_manufacturing_costs/blob/main/README.md)  
+This features extractor is used a preliminary step to feed a machine learning model described [here](https://github.com/BruSunshine/manufacturing_costs_prediction/blob/main/README.md)  
 
 **Format**  
 
